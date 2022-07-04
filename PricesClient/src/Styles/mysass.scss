@@ -1,0 +1,23 @@
+$myColor: red;
+
+h1 {
+    color: $myColor;
+}
+form {
+    div {
+        max-height: 250px;
+        //overflow:auto;
+        div {
+            //border: solid white 1px;
+            max-width: 250px;
+        }
+    }
+}
+.scrollDiv {
+    //height: auto;
+    //max-height: 500px;
+    -ms-overflow-style: none;
+}
+.scrollDiv::-webkit-scrollbar {
+    display: none;
+}
