@@ -22,10 +22,10 @@ function App() {
         </UserContextProvider>
       </header>
       <footer>
-        <img src={PricesLogo} alt="Prices" style={{ height: "20px" }} />
-        <strong>Prices</strong>
-        <code> by Omer Tzafrir
-        </code>
+        
+        Did you like <strong>Prices</strong> <img src={PricesLogo} alt="Prices" style={{ height: "20px" }} />?
+        <br/>
+        <a href="https://ko-fi.com/ometz" target="_blank" >You can buy my ☕!</a>
       </footer>
     </div>
   );
